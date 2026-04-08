@@ -96,3 +96,4 @@ print("Graph2 DFS:", min(times2), max(times2), sum(times2)/len(times2))
 
 # Graph (adj list) is faster because it only visits existing edges.
 # Graph2 (matrix) checks all possible edges, so it is slower.
+# With ~1000 nodes, matrix checks ~1,000,000 cells while list only checks actual edges.
